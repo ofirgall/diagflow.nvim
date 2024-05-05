@@ -248,6 +248,7 @@ function M.init(config)
     })
 
     update_cached_diagnostic()
+    render_diagnostics()
 end
 
 function M.clear()
